@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sagar-deshpande/Inbox/issues"
   },
-  "homepage": "https://github.com/sagar-deshpande/Inbox#readme"
+  "homepage": "https://github.com/sagar-deshpande/Inbox#readme",
+  "dependencies": {
+    "solc": "^0.4.25"
+  }
 }
