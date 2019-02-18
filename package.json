@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/sagar-deshpande/Inbox#readme",
   "dependencies": {
-    "solc": "^0.4.25"
+    "ganache-cli": "^6.3.0",
+    "mocha": "^5.2.0",
+    "solc": "^0.4.25",
+    "web3": "git+https://github.com/ethereum/web3.js.git"
   }
 }
